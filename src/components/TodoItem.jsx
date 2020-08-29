@@ -37,6 +37,8 @@ const btnStyle = {
 // PropTypes
 TodoItem.propTypes = {
   todo: PropTypes.object.isRequired,
+  markComplete: PropTypes.func.isRequired,
+  delTodo: PropTypes.func.isRequired,
 };
 
 export default TodoItem;
